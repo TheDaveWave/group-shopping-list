@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App 2 1`] = `
+exports[`Renders App Run through app 1`] = `
 <div
   className="App"
 >

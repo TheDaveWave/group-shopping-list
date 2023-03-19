@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Product Item 1`] = `
+<div
+  className="item-box"
+>
+  <p>
+    Balls
+  </p>
+  <p>
+    2
+     
+    balls
+  </p>
+  <div
+    className="btn-box"
+  >
+    <button
+      className="list-btn"
+      onClick={[Function]}
+    >
+      ✓
+    </button>
+    <button
+      className="list-btn"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+</div>
+`;

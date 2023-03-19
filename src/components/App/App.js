@@ -9,9 +9,10 @@ import ProductForm from "../ProductForm/ProductForm.js";
 function App() {
   const [productList, setProductList] = useState([]);
 
+  console.log(App);
   // GET request to retrieve the products in our database.
-  const getProducts = () => {
-    console.log("In axios GET");
+  function getProducts() {
+    // console.log("In axios GET");
     axios
       .get("/products")
       .then((response) => {
@@ -25,7 +26,7 @@ function App() {
           console.log("error in axios GET", err);
         }
       });
-  };
+  }
 
   console.log(productList);
 
