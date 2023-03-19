@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="banner-header"
+>
+  <div
+    id="buyStuff"
+  >
+    <h1>
+      BUY 
+    </h1>
+    <div
+      id="tagHolder"
+    >
+      <div
+        id="tag"
+      >
+        $
+      </div>
+    </div>
+    <h1>
+      STUFF
+    </h1>
+  </div>
+</header>
+`;

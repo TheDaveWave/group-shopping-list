@@ -1,10 +1,10 @@
 import React from 'react';
 import axios from 'axios';
 import {useState, useEffect} from 'react';
-import Header from '../Header/Header.jsx'
+import Header from '../Header/Header.js'
 import './App.css';
-import ProductList from '../ProductList/ProductList.jsx';
-import ProductForm from '../ProductForm/ProductForm.jsx';
+import ProductList from '../ProductList/ProductList.js';
+import ProductForm from '../ProductForm/ProductForm.js';
 
 
 function App() {

@@ -8,7 +8,7 @@
     "start": "react-scripts build && node server/server.js",
     "client": "react-scripts start",
     "server": "nodemon  --watch server server/server.js",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "keywords": [],
@@ -18,13 +18,19 @@
     "axios": "^0.27.2",
     "express": "^4.17.1",
     "pg": "^8.5.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-jest": "^29.5.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "react-test-renderer": "^18.2.0"
   },
   "browserslist": [
     ">0.2%",
