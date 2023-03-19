@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders App 2 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="banner-header"
+  >
+    <div
+      id="buyStuff"
+    >
+      <h1>
+        BUY 
+      </h1>
+      <div
+        id="tagHolder"
+      >
+        <div
+          id="tag"
+        >
+          $
+        </div>
+      </div>
+      <h1>
+        STUFF
+      </h1>
+    </div>
+  </header>
+  <div
+    id="productForm"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <label
+        htmlFor="nameIn"
+      >
+        Product Name:
+      </label>
+      <input
+        id="nameIn"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+      <label
+        htmlFor="quantityIn"
+      >
+        Quantity:
+      </label>
+      <input
+        id="quantityIn"
+        onChange={[Function]}
+        required={true}
+        type="number"
+        value=""
+      />
+      <label
+        htmlFor="unitIn"
+      >
+        Unit:
+      </label>
+      <input
+        id="unitIn"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+      <button>
+        Add Product
+      </button>
+    </form>
+  </div>
+  <div
+    className="list-header"
+  >
+    <h2>
+      Shopping List
+    </h2>
+    <button
+      onClick={[Function]}
+    >
+      Reset
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+  </div>
+  <div
+    className="item-container"
+  />
+</div>
+`;
